@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
-  background-color: rgb(10, 7, 43);
+  background-color: rgb(5, 14, 28);
   align-items: center;
   padding: 5px;
 }
@@ -13,7 +13,7 @@ body {
   background-color: rgba(0, 0, 0, 0.706);
   color: white;
   padding: 20px;
-  width: 300px;
+  width: 400px;
   text-align: center;
   margin: 10vh 0 0 0;
   border-radius: 10px;
@@ -23,9 +23,11 @@ body {
   color: rgba(17, 249, 17, 0.931);
   letter-spacing: 1.5px;
   font-size: 13px;
+  font-weight: 300;
 }
 .paragraph {
   letter-spacing: 1.5px;
+  font-weight: bold;
 }
 #pause {
   padding: 10px;
@@ -41,8 +43,8 @@ hr {
   opacity: 0.3;
 }
 .iconTow {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: rgb(26, 251, 26);
   display: flex;
@@ -63,9 +65,8 @@ hr {
     max-width: 100%;
   }
 }
-@media(min-width: 768px){
-  .container{
-    
+@media (min-width: 768px) {
+  .container {
     max-width: 50%;
   }
 }
