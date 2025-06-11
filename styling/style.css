@@ -1,0 +1,71 @@
+* {
+  transition: 0.5s;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(10, 7, 43);
+  align-items: center;
+  padding: 5px;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.706);
+  color: white;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 10vh 0 0 0;
+  border-radius: 10px;
+  position: relative;
+}
+.ID {
+  color: rgba(17, 249, 17, 0.931);
+  letter-spacing: 1.5px;
+  font-size: 13px;
+}
+.paragraph {
+  letter-spacing: 1.5px;
+}
+#pause {
+  padding: 10px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  flex: 1;
+  background-color: #999;
+  opacity: 0.3;
+}
+.iconTow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(26, 251, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.iconTow:hover {
+  box-shadow: 0 0px 10px 5px rgba(172, 255, 47, 0.559);
+}
+@media (max-width: 768px) {
+  .container {
+    min-width: 90%;
+    max-width: 100%;
+  }
+}
+@media(min-width: 768px){
+  .container{
+    
+    max-width: 50%;
+  }
+}
